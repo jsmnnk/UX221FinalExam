@@ -1,3 +1,203 @@
 [22-Apr-2025 23:00:18 UTC] PHP Warning:  Undefined array key "host" in /workspaces/UX221FinalExam/.wordpress/wp-includes/pluggable.php on line 1640
 [22-Apr-2025 23:06:04 UTC] PHP Warning:  Undefined variable $parent_theme_name in /workspaces/UX221FinalExam/.wordpress/wp-content/mu-plugins/one-click-child-theme/templates/create_child_form.php on line 18
 [22-Apr-2025 23:06:41 UTC] PHP Warning:  Undefined variable $parent_theme_name in /workspaces/UX221FinalExam/.wordpress/wp-content/mu-plugins/one-click-child-theme/templates/create_child_form.php on line 18
+[23-Apr-2025 00:19:39 UTC] PHP Fatal error:  Out of memory (allocated 37748736) (tried to allocate 2097152 bytes) in /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/blocks/index.php on line 136
+[23-Apr-2025 00:19:39 UTC] PHP Fatal error:  Uncaught Error: Class "ic_catalog_notices" not found in /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php:600
+Stack trace:
+#0 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php(687): get_multiple_settings()
+#1 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(126): get_integration_type()
+#2 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(99): IC_EPC_Tracking->get_integration_type()
+#3 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(551): IC_EPC_Tracking->setup_data()
+#4 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(481): IC_EPC_Tracking->send_paused_checkin(Array, true)
+#5 [internal function]: IC_EPC_Tracking->fatal()
+#6 {main}
+  thrown in /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php on line 600
+[23-Apr-2025 00:19:40 UTC] PHP Fatal error:  Out of memory (allocated 33554432) (tried to allocate 2097152 bytes) in /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/blocks/index.php on line 136
+[23-Apr-2025 00:19:40 UTC] PHP Fatal error:  Uncaught Error: Class "ic_catalog_notices" not found in /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php:600
+Stack trace:
+#0 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php(687): get_multiple_settings()
+#1 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(126): get_integration_type()
+#2 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(99): IC_EPC_Tracking->get_integration_type()
+#3 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(551): IC_EPC_Tracking->setup_data()
+#4 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(481): IC_EPC_Tracking->send_paused_checkin(Array, true)
+#5 [internal function]: IC_EPC_Tracking->fatal()
+#6 {main}
+  thrown in /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php on line 600
+[23-Apr-2025 00:19:40 UTC] PHP Fatal error:  Out of memory (allocated 31457280) (tried to allocate 2097152 bytes) in /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/blocks/index.php on line 136
+[23-Apr-2025 00:19:40 UTC] PHP Fatal error:  Uncaught Error: Class "ic_catalog_notices" not found in /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php:600
+Stack trace:
+#0 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php(687): get_multiple_settings()
+#1 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(126): get_integration_type()
+#2 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(99): IC_EPC_Tracking->get_integration_type()
+#3 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(551): IC_EPC_Tracking->setup_data()
+#4 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(481): IC_EPC_Tracking->send_paused_checkin(Array, true)
+#5 [internal function]: IC_EPC_Tracking->fatal()
+#6 {main}
+  thrown in /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php on line 600
+[23-Apr-2025 00:19:41 UTC] PHP Fatal error:  Out of memory (allocated 31457280) (tried to allocate 2097152 bytes) in /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/blocks/index.php on line 136
+[23-Apr-2025 00:19:41 UTC] PHP Fatal error:  Uncaught Error: Class "ic_catalog_notices" not found in /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php:600
+Stack trace:
+#0 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php(687): get_multiple_settings()
+#1 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(126): get_integration_type()
+#2 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(99): IC_EPC_Tracking->get_integration_type()
+#3 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(551): IC_EPC_Tracking->setup_data()
+#4 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(481): IC_EPC_Tracking->send_paused_checkin(Array, true)
+#5 [internal function]: IC_EPC_Tracking->fatal()
+#6 {main}
+  thrown in /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php on line 600
+[23-Apr-2025 00:19:41 UTC] PHP Fatal error:  Out of memory (allocated 31457280) (tried to allocate 2097152 bytes) in /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/blocks/index.php on line 136
+[23-Apr-2025 00:19:41 UTC] PHP Fatal error:  Uncaught Error: Class "ic_catalog_notices" not found in /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php:600
+Stack trace:
+#0 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php(687): get_multiple_settings()
+#1 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(126): get_integration_type()
+#2 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(99): IC_EPC_Tracking->get_integration_type()
+#3 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(551): IC_EPC_Tracking->setup_data()
+#4 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(481): IC_EPC_Tracking->send_paused_checkin(Array, true)
+#5 [internal function]: IC_EPC_Tracking->fatal()
+#6 {main}
+  thrown in /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php on line 600
+[23-Apr-2025 00:19:42 UTC] PHP Fatal error:  Out of memory (allocated 31457280) (tried to allocate 2097152 bytes) in /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/blocks/index.php on line 136
+[23-Apr-2025 00:19:42 UTC] PHP Fatal error:  Uncaught Error: Class "ic_catalog_notices" not found in /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php:600
+Stack trace:
+#0 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php(687): get_multiple_settings()
+#1 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(126): get_integration_type()
+#2 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(99): IC_EPC_Tracking->get_integration_type()
+#3 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(551): IC_EPC_Tracking->setup_data()
+#4 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(481): IC_EPC_Tracking->send_paused_checkin(Array, true)
+#5 [internal function]: IC_EPC_Tracking->fatal()
+#6 {main}
+  thrown in /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php on line 600
+[23-Apr-2025 00:19:47 UTC] PHP Fatal error:  Out of memory (allocated 31457280) (tried to allocate 2097152 bytes) in /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/blocks/index.php on line 107
+[23-Apr-2025 00:19:47 UTC] PHP Fatal error:  Out of memory (allocated 31457280) (tried to allocate 131072 bytes) in /workspaces/UX221FinalExam/.wordpress/wp-content/languages/admin-en_CA.l10n.php on line 2
+[23-Apr-2025 00:19:57 UTC] PHP Fatal error:  Out of memory (allocated 31457280) (tried to allocate 2097152 bytes) in /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/blocks/index.php on line 107
+[23-Apr-2025 00:19:57 UTC] PHP Fatal error:  Uncaught Error: Class "ic_catalog_notices" not found in /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php:600
+Stack trace:
+#0 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php(687): get_multiple_settings()
+#1 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(126): get_integration_type()
+#2 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(99): IC_EPC_Tracking->get_integration_type()
+#3 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(551): IC_EPC_Tracking->setup_data()
+#4 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(481): IC_EPC_Tracking->send_paused_checkin(Array, true)
+#5 [internal function]: IC_EPC_Tracking->fatal()
+#6 {main}
+  thrown in /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php on line 600
+[23-Apr-2025 00:20:07 UTC] PHP Fatal error:  Out of memory (allocated 31457280) (tried to allocate 2097152 bytes) in /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/blocks/index.php on line 107
+[23-Apr-2025 00:20:07 UTC] PHP Fatal error:  Uncaught Error: Class "ic_catalog_notices" not found in /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php:600
+Stack trace:
+#0 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php(687): get_multiple_settings()
+#1 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(126): get_integration_type()
+#2 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(99): IC_EPC_Tracking->get_integration_type()
+#3 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(551): IC_EPC_Tracking->setup_data()
+#4 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(481): IC_EPC_Tracking->send_paused_checkin(Array, true)
+#5 [internal function]: IC_EPC_Tracking->fatal()
+#6 {main}
+  thrown in /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php on line 600
+[23-Apr-2025 00:20:17 UTC] PHP Fatal error:  Out of memory (allocated 31457280) (tried to allocate 2097152 bytes) in /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/blocks/index.php on line 107
+[23-Apr-2025 00:20:17 UTC] PHP Fatal error:  Uncaught Error: Class "ic_catalog_notices" not found in /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php:600
+Stack trace:
+#0 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php(687): get_multiple_settings()
+#1 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(126): get_integration_type()
+#2 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(99): IC_EPC_Tracking->get_integration_type()
+#3 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(551): IC_EPC_Tracking->setup_data()
+#4 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(481): IC_EPC_Tracking->send_paused_checkin(Array, true)
+#5 [internal function]: IC_EPC_Tracking->fatal()
+#6 {main}
+  thrown in /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php on line 600
+[23-Apr-2025 00:20:24 UTC] PHP Fatal error:  Out of memory (allocated 31457280) (tried to allocate 2097152 bytes) in /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/blocks/index.php on line 136
+[23-Apr-2025 00:20:24 UTC] PHP Fatal error:  Uncaught Error: Class "ic_catalog_notices" not found in /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php:600
+Stack trace:
+#0 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php(687): get_multiple_settings()
+#1 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(126): get_integration_type()
+#2 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(99): IC_EPC_Tracking->get_integration_type()
+#3 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(551): IC_EPC_Tracking->setup_data()
+#4 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(481): IC_EPC_Tracking->send_paused_checkin(Array, true)
+#5 [internal function]: IC_EPC_Tracking->fatal()
+#6 {main}
+  thrown in /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php on line 600
+[23-Apr-2025 00:20:27 UTC] PHP Fatal error:  Out of memory (allocated 31457280) (tried to allocate 2097152 bytes) in /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/blocks/index.php on line 107
+[23-Apr-2025 00:20:27 UTC] PHP Fatal error:  Uncaught Error: Class "ic_catalog_notices" not found in /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php:600
+Stack trace:
+#0 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php(687): get_multiple_settings()
+#1 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(126): get_integration_type()
+#2 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(99): IC_EPC_Tracking->get_integration_type()
+#3 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(551): IC_EPC_Tracking->setup_data()
+#4 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(481): IC_EPC_Tracking->send_paused_checkin(Array, true)
+#5 [internal function]: IC_EPC_Tracking->fatal()
+#6 {main}
+  thrown in /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php on line 600
+[23-Apr-2025 00:20:37 UTC] PHP Fatal error:  Out of memory (allocated 31457280) (tried to allocate 2097152 bytes) in /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/blocks/index.php on line 107
+[23-Apr-2025 00:20:37 UTC] PHP Fatal error:  Uncaught Error: Class "ic_catalog_notices" not found in /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php:600
+Stack trace:
+#0 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php(687): get_multiple_settings()
+#1 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(126): get_integration_type()
+#2 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(99): IC_EPC_Tracking->get_integration_type()
+#3 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(551): IC_EPC_Tracking->setup_data()
+#4 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(481): IC_EPC_Tracking->send_paused_checkin(Array, true)
+#5 [internal function]: IC_EPC_Tracking->fatal()
+#6 {main}
+  thrown in /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php on line 600
+[23-Apr-2025 00:20:39 UTC] PHP Fatal error:  Out of memory (allocated 31457280) (tried to allocate 2097152 bytes) in /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/blocks/index.php on line 136
+[23-Apr-2025 00:20:39 UTC] PHP Fatal error:  Uncaught Error: Class "ic_catalog_notices" not found in /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php:600
+Stack trace:
+#0 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php(687): get_multiple_settings()
+#1 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(126): get_integration_type()
+#2 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(99): IC_EPC_Tracking->get_integration_type()
+#3 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(551): IC_EPC_Tracking->setup_data()
+#4 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(481): IC_EPC_Tracking->send_paused_checkin(Array, true)
+#5 [internal function]: IC_EPC_Tracking->fatal()
+#6 {main}
+  thrown in /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php on line 600
+[23-Apr-2025 00:20:46 UTC] PHP Fatal error:  Out of memory (allocated 31457280) (tried to allocate 2097152 bytes) in /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/blocks/index.php on line 136
+[23-Apr-2025 00:20:46 UTC] PHP Fatal error:  Uncaught Error: Class "ic_catalog_notices" not found in /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php:600
+Stack trace:
+#0 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php(687): get_multiple_settings()
+#1 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(126): get_integration_type()
+#2 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(99): IC_EPC_Tracking->get_integration_type()
+#3 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(551): IC_EPC_Tracking->setup_data()
+#4 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(481): IC_EPC_Tracking->send_paused_checkin(Array, true)
+#5 [internal function]: IC_EPC_Tracking->fatal()
+#6 {main}
+  thrown in /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php on line 600
+[23-Apr-2025 00:20:46 UTC] PHP Fatal error:  Out of memory (allocated 31457280) (tried to allocate 2097152 bytes) in /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/blocks/index.php on line 136
+[23-Apr-2025 00:20:46 UTC] PHP Fatal error:  Uncaught Error: Class "ic_catalog_notices" not found in /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php:600
+Stack trace:
+#0 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php(687): get_multiple_settings()
+#1 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(126): get_integration_type()
+#2 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(99): IC_EPC_Tracking->get_integration_type()
+#3 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(551): IC_EPC_Tracking->setup_data()
+#4 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(481): IC_EPC_Tracking->send_paused_checkin(Array, true)
+#5 [internal function]: IC_EPC_Tracking->fatal()
+#6 {main}
+  thrown in /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php on line 600
+[23-Apr-2025 00:20:47 UTC] PHP Fatal error:  Out of memory (allocated 31457280) (tried to allocate 2097152 bytes) in /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/blocks/index.php on line 136
+[23-Apr-2025 00:20:47 UTC] PHP Fatal error:  Uncaught Error: Class "ic_catalog_notices" not found in /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php:600
+Stack trace:
+#0 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php(687): get_multiple_settings()
+#1 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(126): get_integration_type()
+#2 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(99): IC_EPC_Tracking->get_integration_type()
+#3 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(551): IC_EPC_Tracking->setup_data()
+#4 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(481): IC_EPC_Tracking->send_paused_checkin(Array, true)
+#5 [internal function]: IC_EPC_Tracking->fatal()
+#6 {main}
+  thrown in /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php on line 600
+[23-Apr-2025 00:20:47 UTC] PHP Fatal error:  Out of memory (allocated 31457280) (tried to allocate 2097152 bytes) in /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/blocks/index.php on line 107
+[23-Apr-2025 00:20:47 UTC] PHP Fatal error:  Uncaught Error: Class "ic_catalog_notices" not found in /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php:600
+Stack trace:
+#0 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php(687): get_multiple_settings()
+#1 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(126): get_integration_type()
+#2 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(99): IC_EPC_Tracking->get_integration_type()
+#3 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(551): IC_EPC_Tracking->setup_data()
+#4 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(481): IC_EPC_Tracking->send_paused_checkin(Array, true)
+#5 [internal function]: IC_EPC_Tracking->fatal()
+#6 {main}
+  thrown in /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php on line 600
+[23-Apr-2025 00:20:58 UTC] PHP Fatal error:  Out of memory (allocated 31457280) (tried to allocate 2097152 bytes) in /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/blocks/index.php on line 107
+[23-Apr-2025 00:20:58 UTC] PHP Fatal error:  Uncaught Error: Class "ic_catalog_notices" not found in /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php:600
+Stack trace:
+#0 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php(687): get_multiple_settings()
+#1 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(126): get_integration_type()
+#2 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(99): IC_EPC_Tracking->get_integration_type()
+#3 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(551): IC_EPC_Tracking->setup_data()
+#4 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(481): IC_EPC_Tracking->send_paused_checkin(Array, true)
+#5 [internal function]: IC_EPC_Tracking->fatal()
+#6 {main}
+  thrown in /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/general.php on line 600
