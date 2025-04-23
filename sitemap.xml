@@ -57,6 +57,21 @@
     </url>
     <url>
         <loc>
+            http://localhost:8000/products/diy-donut-kit/
+        </loc>
+    </url>
+    <url>
+        <loc>
+            http://localhost:8000/products/mini-celabration-cake-kit/
+        </loc>
+    </url>
+    <url>
+        <loc>
+            http://localhost:8000/products/cozy-banana-bread-kit/
+        </loc>
+    </url>
+    <url>
+        <loc>
             http://localhost:8000/category/uncategorized/
         </loc>
     </url>
